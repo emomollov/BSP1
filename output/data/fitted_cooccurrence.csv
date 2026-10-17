@@ -1,0 +1,16 @@
+family_a,family_b,days_both,days_a,days_b,share_both,days_scanned
+cpt,ob_bl_max,165,200,165,0.825,200
+cpt,eod_min,57,200,57,0.285,200
+cpt,ob_bl_min,51,200,51,0.255,200
+cpt,eod_max,41,200,41,0.205,200
+eod_max,ob_bl_max,41,41,165,0.205,200
+eod_min,ob_bl_min,40,57,51,0.2,200
+eod_min,ob_bl_max,25,57,165,0.125,200
+ob_bl_max,ob_bl_min,23,165,51,0.115,200
+cpt,returns_bl,6,200,6,0.03,200
+ob_bl_max,returns_bl,4,165,6,0.02,200
+eod_min,returns_bl,2,57,6,0.01,200
+ob_bl_min,returns_bl,2,51,6,0.01,200
+eod_max,returns_bl,1,41,6,0.005,200
+eod_max,eod_min,0,41,57,0.0,200
+eod_max,ob_bl_min,0,41,51,0.0,200

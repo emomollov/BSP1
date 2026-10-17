@@ -1,0 +1,2 @@
+site,eod_hour,eod_capacity_per_hour,eod_soft_max_hours,eod_hard_min_hours
+BSP1,23,7220.385,3.49,1.527

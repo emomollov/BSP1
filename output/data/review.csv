@@ -1,0 +1,166 @@
+scenario,moves_total,limited_by,resolved,priority,tier,label,kind,slack_actual,slack_optimal,relieved,outcome
+baseline,25,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+baseline,25,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+baseline,25,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,15115.3,1806.3,13309.0,risk reduced
+baseline,25,resolved,True,14,moves,Minimise movements,preference,0.0,250.0,-250.0,preference
+baseline,25,resolved,True,15,support,Park spare people in Support,preference,0.0,-7.0,7.0,preference
+ib_surge,53,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,2,storage_later,Inbound storage (later),slack,14415.3,0.0,14415.3,resolved
+ib_surge,53,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+ib_surge,53,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,60342.7,0.0,60342.7,at target
+ib_surge,53,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,15115.3,1806.3,13309.0,risk reduced
+ib_surge,53,resolved,True,14,moves,Minimise movements,preference,0.0,530.0,-530.0,preference
+ib_surge,53,resolved,True,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference
+ob_backlog_build,32,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,22661.6,0.0,22661.6,resolved
+ob_backlog_build,32,resolved,True,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+ob_backlog_build,32,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+ob_backlog_build,32,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,84918.8,1806.3,83112.4,risk reduced
+ob_backlog_build,32,resolved,True,14,moves,Minimise movements,preference,0.0,320.0,-320.0,preference
+ob_backlog_build,32,resolved,True,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference
+cpt_at_risk,35,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,8929.4,0.0,8929.4,resolved
+cpt_at_risk,35,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+cpt_at_risk,35,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+cpt_at_risk,35,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,15115.3,38981.7,-23866.3,traded for a higher tier
+cpt_at_risk,35,resolved,True,14,moves,Minimise movements,preference,0.0,350.0,-350.0,preference
+cpt_at_risk,35,resolved,True,15,support,Park spare people in Support,preference,0.0,-10.0,10.0,preference
+eod_target_miss,53,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,7,eod_max,End-of-day backlog above target,slack,6297.7,0.0,6297.7,resolved
+eod_target_miss,53,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+eod_target_miss,53,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+eod_target_miss,53,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,15115.3,4640.1,10475.2,risk reduced
+eod_target_miss,53,resolved,True,14,moves,Minimise movements,preference,0.0,530.0,-530.0,preference
+eod_target_miss,53,resolved,True,15,support,Park spare people in Support,preference,0.0,-21.0,21.0,preference
+ib_then_eod,83,resolved,True,1,storage_now,Inbound storage (this shift),slack,3724.0,0.0,3724.0,resolved
+ib_then_eod,83,resolved,True,2,storage_later,Inbound storage (later),slack,6587.3,0.0,6587.3,resolved
+ib_then_eod,83,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,7,eod_max,End-of-day backlog above target,slack,6925.9,0.0,6925.9,resolved
+ib_then_eod,83,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+ib_then_eod,83,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,58576.7,214.4,58362.3,risk reduced
+ib_then_eod,83,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,15115.3,8091.0,7024.3,risk reduced
+ib_then_eod,83,resolved,True,14,moves,Minimise movements,preference,0.0,830.0,-830.0,preference
+ib_then_eod,83,resolved,True,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference
+machine_capped,4,machine,False,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,6,ob_bl_max_later,Outbound backlog too high (later),slack,22661.6,12731.4,9930.1,reduced
+machine_capped,4,machine,False,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+machine_capped,4,machine,False,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+machine_capped,4,machine,False,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,84918.8,71163.4,13755.4,risk reduced
+machine_capped,4,machine,False,14,moves,Minimise movements,preference,0.0,40.0,-40.0,preference
+machine_capped,4,machine,False,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference
+pool_exhausted,12,cross_trained_people,False,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,3,cpt_now,Carrier cut-off risk (this shift),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,4,cpt_later,Carrier cut-off risk (later),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,6,ob_bl_max_later,Outbound backlog too high (later),slack,22661.6,3888.6,18772.9,reduced
+pool_exhausted,12,cross_trained_people,False,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+pool_exhausted,12,cross_trained_people,False,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+pool_exhausted,12,cross_trained_people,False,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,84918.8,49420.3,35498.5,risk reduced
+pool_exhausted,12,cross_trained_people,False,14,moves,Minimise movements,preference,0.0,120.0,-120.0,preference
+pool_exhausted,12,cross_trained_people,False,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference
+fitted_90007,151,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+fitted_90007,151,resolved,True,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+fitted_90007,151,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,28976.8,9652.7,19324.1,reduced
+fitted_90007,151,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,58248.4,12229.9,46018.5,reduced
+fitted_90007,151,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+fitted_90007,151,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,0.0,0.0,0.0,clear
+fitted_90007,151,resolved,True,7,eod_max,End-of-day backlog above target,slack,0.0,0.0,0.0,clear
+fitted_90007,151,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,62260.4,207647.1,-145386.7,worsened to relieve a higher tier
+fitted_90007,151,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,159722.9,265272.5,-105549.7,worsened to relieve a higher tier
+fitted_90007,151,resolved,True,10,eod_min,End-of-day backlog below target,slack,18955.7,25848.7,-6893.0,worsened to relieve a higher tier
+fitted_90007,151,resolved,True,11,returns_bl,Returns backlog ceiling,slack,28962.4,0.0,28962.4,resolved
+fitted_90007,151,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+fitted_90007,151,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,400429.9,660291.1,-259861.1,traded for a higher tier
+fitted_90007,151,resolved,True,14,moves,Minimise movements,preference,0.0,1510.0,-1510.0,preference
+fitted_90007,151,resolved,True,15,support,Park spare people in Support,preference,0.0,-10.0,10.0,preference
+fitted_90065,87,resolved,True,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+fitted_90065,87,resolved,True,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+fitted_90065,87,resolved,True,3,cpt_now,Carrier cut-off risk (this shift),slack,18525.9,5516.2,13009.7,reduced
+fitted_90065,87,resolved,True,4,cpt_later,Carrier cut-off risk (later),slack,72580.9,3136.5,69444.4,reduced
+fitted_90065,87,resolved,True,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,0.0,0.0,0.0,clear
+fitted_90065,87,resolved,True,6,ob_bl_max_later,Outbound backlog too high (later),slack,241225.2,0.0,241225.2,resolved
+fitted_90065,87,resolved,True,7,eod_max,End-of-day backlog above target,slack,3641.3,0.0,3641.3,resolved
+fitted_90065,87,resolved,True,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,35290.8,-35290.8,broken to relieve a higher tier
+fitted_90065,87,resolved,True,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,11744.4,-11744.4,broken to relieve a higher tier
+fitted_90065,87,resolved,True,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+fitted_90065,87,resolved,True,11,returns_bl,Returns backlog ceiling,slack,0.0,0.0,0.0,clear
+fitted_90065,87,resolved,True,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+fitted_90065,87,resolved,True,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,354053.6,115399.8,238653.7,risk reduced
+fitted_90065,87,resolved,True,14,moves,Minimise movements,preference,0.0,870.0,-870.0,preference
+fitted_90065,87,resolved,True,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference
+fitted_90073,68,cross_trained_people,False,1,storage_now,Inbound storage (this shift),slack,0.0,0.0,0.0,clear
+fitted_90073,68,cross_trained_people,False,2,storage_later,Inbound storage (later),slack,0.0,0.0,0.0,clear
+fitted_90073,68,cross_trained_people,False,3,cpt_now,Carrier cut-off risk (this shift),slack,9424.7,2281.5,7143.2,reduced
+fitted_90073,68,cross_trained_people,False,4,cpt_later,Carrier cut-off risk (later),slack,66505.3,4682.7,61822.6,reduced
+fitted_90073,68,cross_trained_people,False,5,ob_bl_max_now,Outbound backlog too high (this shift),slack,410966.9,318013.0,92953.9,reduced
+fitted_90073,68,cross_trained_people,False,6,ob_bl_max_later,Outbound backlog too high (later),slack,1379938.1,1035212.2,344726.0,reduced
+fitted_90073,68,cross_trained_people,False,7,eod_max,End-of-day backlog above target,slack,169948.0,146570.2,23377.7,reduced
+fitted_90073,68,cross_trained_people,False,8,ob_bl_min_now,Outbound backlog too low (this shift),slack,0.0,0.0,0.0,clear
+fitted_90073,68,cross_trained_people,False,9,ob_bl_min_later,Outbound backlog too low (later),slack,0.0,0.0,0.0,clear
+fitted_90073,68,cross_trained_people,False,10,eod_min,End-of-day backlog below target,slack,0.0,0.0,0.0,clear
+fitted_90073,68,cross_trained_people,False,11,returns_bl,Returns backlog ceiling,slack,32178.2,576682.4,-544504.2,worsened to relieve a higher tier
+fitted_90073,68,cross_trained_people,False,12,storage_buffer,Inbound storage: buffer under the ceiling,guardrail,0.0,0.0,0.0,at target
+fitted_90073,68,cross_trained_people,False,13,ob_bl_centre,Outbound backlog: toward band centre,guardrail,1907893.1,1648406.5,259486.6,risk reduced
+fitted_90073,68,cross_trained_people,False,14,moves,Minimise movements,preference,0.0,680.0,-680.0,preference
+fitted_90073,68,cross_trained_people,False,15,support,Park spare people in Support,preference,0.0,0.0,0.0,preference

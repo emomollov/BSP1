@@ -1,0 +1,6 @@
+demo_limit,prod_limit,hours
+cross_trained_people,cross_trained_people,236
+no_more_capacity_needed,not_constrained,126
+outside_shift,not_constrained,125
+no_more_capacity_needed,no_more_capacity_needed,112
+no_work_available,not_constrained,1

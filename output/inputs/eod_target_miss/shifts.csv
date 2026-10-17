@@ -1,0 +1,10 @@
+site,shift,quarter,interval_kind,start_hour,end_hour
+BSP1,A,1.0,work,6.0,10.0
+BSP1,A,,closed,10.0,11.0
+BSP1,A,2.0,work,11.0,14.0
+BSP1,B,3.0,work,14.0,18.0
+BSP1,B,,closed,18.0,19.0
+BSP1,B,4.0,work,19.0,22.0
+BSP1,C,5.0,work,22.0,26.0
+BSP1,C,,closed,26.0,27.0
+BSP1,C,6.0,work,27.0,30.0

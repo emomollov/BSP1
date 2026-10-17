@@ -1,0 +1,8 @@
+quantity,ratio,seed_sd_of_ratio
+"outbound capacity, daily",0.9888,0.0915
+"outbound shipped, daily",0.9851,0.0839
+"arrivals, daily",1.0074,0.0817
+pickable share of total,1.0273,0.0656
+"shipped / capacity, p90",0.9662,0.0921
+"pickable backlog, mean",1.0038,0.1264
+negative arrival share,1.2092,0.328

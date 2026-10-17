@@ -1,0 +1,6 @@
+series,kind,phi_fitted,phi_generated
+outbound capacity,level,0.904,0.8441
+pickable backlog,level,0.965,0.939
+aged units,level,0.977,0.947
+arrivals (derived),flow,0.139,0.0457
+ship plan,flow,0.047,0.1747
